@@ -3,6 +3,7 @@ int motorstat = 1;
 int transmit = 1;
 #define rx5 6
 #define tx5 7
+#include <Arduino.h> //so people can compile using g++
 #include "RAX.h"
 #include "Arduino_LED_Matrix.h"   // Include the LED_Matrix library
 #include "frames.h"     
